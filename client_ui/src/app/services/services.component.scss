@@ -284,9 +284,9 @@
   .section-title {
     padding-top: 2rem;
 
-    font-size:  2rem;
+    font-size: 2rem;
   }
-  .section-subtitle{
+  .section-subtitle {
     margin-bottom: 1rem;
   }
 
@@ -322,6 +322,30 @@
   }
   .service_features {
     font-size: 0.8rem;
+  }
+  .hours {
+    font-size: 1rem;
+  }
+  .button {
+    width: 9rem !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .service_name {
+    font-size: 2rem !important;
+  }
+  .service_description {
+    font-size: 1rem !important;
+  }
+  .service_price {
+    font-size: 1.5rem;
+  }
+  .packages_header {
+    font-size: 1rem;
+  }
+  .service_features {
+    font-size: 0.9rem;
   }
   .hours {
     font-size: 1rem;

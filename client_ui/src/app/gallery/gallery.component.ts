@@ -74,7 +74,7 @@ export interface GalleryImage {
           <button class="lightbox-close" (click)="closeLightbox()">
             <i class="fas fa-times"></i>
           </button>
-          <img [src]="selectedImage.url" [alt]="selectedImage.title" />
+          <img [src]="selectedImage.url" [alt]="selectedImage.title" loading="lazy" />
           <div class="lightbox-info">
             <h3>{{ selectedImage.title }}</h3>
             <p>{{ selectedImage.category }}</p>
