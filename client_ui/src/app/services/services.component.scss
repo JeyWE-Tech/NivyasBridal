@@ -282,7 +282,12 @@
 
 @media (max-width: 768px) {
   .section-title {
-    font-size: 2.2rem;
+    padding-top: 2rem;
+
+    font-size:  2rem;
+  }
+  .section-subtitle{
+    margin-bottom: 1rem;
   }
 
   .services-grid {
@@ -299,5 +304,29 @@
   }
   .even_full-image {
     right: 18%;
+  }
+}
+
+@media (max-height: 700px) {
+  .service_name {
+    font-size: 1.8rem !important;
+  }
+  .service_description {
+    font-size: 0.8rem !important;
+  }
+  .service_price {
+    font-size: 1.5rem;
+  }
+  .packages_header {
+    font-size: 0.8rem;
+  }
+  .service_features {
+    font-size: 0.8rem;
+  }
+  .hours {
+    font-size: 1rem;
+  }
+  .button {
+    width: 9rem !important;
   }
 }
