@@ -1,0 +1,105 @@
+.niviyas-title {
+  color: var(--accent-rose);
+}
+.intro-section {
+  background: linear-gradient(to top left, rgb(0, 0, 0), rgb(0, 0, 0));
+  position: relative;
+}
+.section {
+  align-items: start !important;
+}
+.full-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.9;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  justify-content: center !important;
+  // width: 70%;
+}
+.intro-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  // text-align: start;
+  // max-width: 800px;
+  // margin: 0 auto;
+}
+
+.intro-title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #c5ea80;
+  margin-bottom: 1.5rem;
+  animation-delay: 0.3s;
+}
+
+.intro-text {
+  width: 70%;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #d4d6d2e4;
+  // margin-bottom: 3rem;
+  animation-delay: 0.5s;
+}
+
+.second-paragraph{
+   background: linear-gradient(to bottom ,transparent, rgba(0, 0, 0, 0.47));
+}
+.intro-text p {
+  margin-bottom: 1.5rem;
+}
+
+.intro-features {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  animation-delay: 0.7s;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.feature i {
+  font-size: 2rem;
+  color: var(--primary-pink);
+  background: linear-gradient(135deg, var(--primary-pink), var(--accent-rose));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.feature span {
+  font-weight: 500;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .intro-title {
+    font-size: 2.3rem;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+
+  .intro-features {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
